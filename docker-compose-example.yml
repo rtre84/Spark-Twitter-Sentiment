@@ -15,7 +15,7 @@ kibana:
 spark:
   build: .
   dockerfile: Dockerfile.spark
-  command: DgBpf4TSvvzM6MAYYcwRAW9pV Nxum7CEBBf63gmaWkDPN9ijP3g2zqvwOzwgKijklDHaNujCf8q 21989870-vmYuGk6iOJ0AuCSiM5nRt1HkylUw73eko1yKgfKUX Y8pwGCdGffvFpsqsAzPadb3wGnI6Tep3n1wYnOVtqoj8h "#Bigdata" "#meow"
+  command: <your_consumer_key> <your_consumer_secret> <your_access_token> <your_access_token_secret> [<filters>]
 
   ports:
     - "4040:4040"

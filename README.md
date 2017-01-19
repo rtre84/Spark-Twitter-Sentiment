@@ -1,3 +1,9 @@
+Forked from https://github.com/vspiewak/twitter-sentiment-analysis .
+
+Only minor changes or rather messing around done in twitter-sentiment-analysis/src/main/scala/com/github/vspiewak/TwitterSentimentAnalysis.scala . 
+Please credit the above mentioned repo/author if you're using any of this code in your own work. Thank You.
+
+
 Twitter Sentiment Analysis
 ==========================
 

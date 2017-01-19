@@ -17,7 +17,7 @@ Twitter Sentiment Analysis
 Docker setup
 ------------
 
-Configure Twitter OAuth in [`docker-compose.yml`](./docker-compose.yml) file.
+Configure Twitter OAuth in [`docker-compose-example.yml`](./docker-compose-example.yml) file and rename it to docker-compose.yml.
 
 After installing docker & docker-compose, you can launch the stack with the following commands:
 

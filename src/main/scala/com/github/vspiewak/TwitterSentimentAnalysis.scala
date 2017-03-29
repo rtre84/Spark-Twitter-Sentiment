@@ -39,7 +39,9 @@ object TwitterSentimentAnalysis {
      System.setProperty("twitter4j.oauth.accessTokenSecret", accessTokenSecret)
 
      val conf = new SparkConf().setAppName("TwitterSentimentAnalysis")
-     conf.set("es.nodes", conf.get("spark.es.nodes"))
+     // conf.set("es.nodes", conf.get("spark.es.nodes"))
+     //conf.set("es.nodes", "elasticsearch:9200")
+     conf.set("es.nodes", "54.152.157.205:9200")
 
      val ssc = new StreamingContext(conf, Seconds(1))
 
